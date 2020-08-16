@@ -3,6 +3,7 @@ var strs=[];
 
 function vbsTojs(vbs){
 
+    return "TODO: make vbsTojs ready for testing";
 	
     var s = vbs;
     var Vars = '';

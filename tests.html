@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Tests</title>
+    <script src="tests.js" type="text/javascript"></script>
+    <script src="vb2js.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+<div>
+<H1>vb2js - Test</H1>
+<p>
+    <textarea rows="12" id="js" cols="130"></textarea>
+</p>
+<input class="butt" type="button" value="Testen" onClick="test_js()" />
+    <script>
+        var js = document.getElementById("js");
+
+        function test_js() {
+            js.value = test_all();
+        }
+    </script>
+
+</div>
+</body>
+</html>
